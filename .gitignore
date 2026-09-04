@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Snowflake local state, tokens
+.snowflake/
+*.token
+tokens/
+connections.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.uv/
+
+# Secrets / credentials
+*.pem
+*.p8
+.env
